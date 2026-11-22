@@ -1,7 +1,12 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# dependencies
+# dependencies (se instalan con npm install, no se suben)
 /node_modules
+
+# variables de entorno con las claves de Supabase (no se suben)
+.env
+.env.*
+!.env.example
 /.pnp
 .pnp.js
 
@@ -10,13 +15,10 @@
 
 # production
 /dist
+.vercel
 
 # misc
 .DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
 /.nx
 /.nx/cache
 /.vscode/*
@@ -35,6 +37,3 @@ yarn-error.log*
 /playwright-report/
 /blob-report/
 /playwright/.cache/
-
-# Variables de entorno (la real no se sube)
-.env
