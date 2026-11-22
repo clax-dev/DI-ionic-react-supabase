@@ -27,7 +27,7 @@ const Home: React.FC = () => {
       <IonContent fullscreen>
         <div className="container py-4">
           <h1 className="h3 mb-1">Ionic React + Supabase + Bootstrap</h1>
-          <p className="text-muted mb-4">Listado de la tabla <code>clients</code> de Supabase.</p>
+          <p className="opacity-75 mb-4">Listado de la tabla <code>clients</code> de Supabase.</p>
 
           {loading && (
             <div className="d-flex align-items-center gap-2">
