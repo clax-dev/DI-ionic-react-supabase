@@ -1,0 +1,7 @@
+{
+  "name": "DI-ionic-react-supabase",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
